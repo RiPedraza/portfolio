@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem; 
+    /* background: linear-gradient(aliceblue 50%, #808080, #181818); */
+    background-color: aliceblue;
+}
+
+html{
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: bold; 
+}
+
+section{
+    border-top: 1px solid #808080;
+    margin-bottom: 5rem;
+    
+}

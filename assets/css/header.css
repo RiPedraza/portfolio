@@ -1,0 +1,50 @@
+header{
+    color: aliceblue;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 3rem;
+    background-color: #000020;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+nav a{
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.2rem;
+}
+
+.nav__div__portfolio{
+    margin-left: 1rem;
+}
+
+.porfolio_y_pdf{
+    display: flex;
+    align-items: center;
+}
+
+.porfolio_y_pdf img{
+    width: 30%;
+}
+
+#btnCrearPdf{
+    cursor: pointer;
+}
+
+#btnCrearPdf:hover{
+    
+    transform: scale(1.02);
+}
+
+nav a:hover{
+    color: #40CFFF;
+    font-weight: bold;
+    text-decoration: underline;
+}

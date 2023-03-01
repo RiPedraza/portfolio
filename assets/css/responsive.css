@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px){
+    body{
+        width: 100%;
+        padding: 0;
+    }
+
+    nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .nav__div__ancor{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    main{
+        padding: 0.3rem;
+    }
+
+    .main__section__SobreMi{
+        display: flex;
+        border-top: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1, h2{
+        margin: 1rem 0;
+    }
+
+    .main__section__SobreMi__detallePerfil{
+        width: 100%;
+    }
+
+    .div-h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Section Estudios */
+    .main__section__Estudios__div{
+        font-size: medium;
+    }
+    .estudios-detalle{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Section Experiencia Laboral*/
+    .main__section__ExperienciaLaboral__conteiner{
+        font-size: medium;
+    }
+    .experienciaLaboral__conteiner__card{
+        /* background: linear-gradient(207.8deg, #687c7c 16.69%, #041f20 100%); */
+        background: none;
+        background-color: #041f20;
+        color: aliceblue;
+    }
+    .experienciaLaboral__conteiner__card h3{
+        color: rgb(17, 175, 180);
+    }
+
+    /*Proyecto*/
+    .main__section__Proyectos__conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main__section__Proyectos__card{
+        margin: 2.5rem 0;
+        
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .main__section__Proyectos__card img{
+        width: 100%;
+    }
+
+    .main__section__Proyectos__card__detalle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

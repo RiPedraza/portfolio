@@ -1,0 +1,222 @@
+main{
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+/*********** Section Sobre Mi ***********/
+.main__section__SobreMi{
+    display: flex;
+    justify-content: space-around;
+    border-top: none;
+}
+
+.main__section__SobreMi__tituloPerfil{
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__section__SobreMi__tituloPerfil__foto{
+    width: 200px;
+    border-radius: 50%;
+    
+    border: 10px double rgb(77, 74, 74);    
+}
+
+.main__section__SobreMi__detallePerfil{
+    width: 60%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+/*********** Section Skills ***********/
+.div-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__section__Skills__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.card-skills{
+    width: 150px;
+    background-color: white;
+    margin: .5rem;
+        
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-skills img{
+    height: 90px;
+    margin-top: 0.5rem;    
+}
+
+.card-skills p{
+    margin: 0.5rem 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-skills:hover{
+    box-shadow: #46464650 0 0 1.5rem 0.1rem;
+    transform: scale(1.05);
+}
+
+
+/*********** Section Estudios ***********/
+
+.main__section__Estudios__div{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    border-bottom: 1px solid lightgreen;
+    padding: 0.7rem 0;
+}
+
+.main__section__Estudios__div:last-child{
+    border-bottom: none;
+}
+
+.main__section__Estudios__div h3, .main__section__ExperienciaLaboral h3{
+    font-weight: 600;
+    color: #000020;
+}
+
+.estudios-detalle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estudios-detalle h3:hover{
+    /* text-shadow: #46464650 0 0 1.5rem 0.1rem; */
+    text-shadow: 1px 1px 2px #46464650;
+    transform: scale(1.05);
+}
+
+/*********** Experiencia Laboral ***********/
+
+.main__section__ExperienciaLaboral{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    
+    padding: 0.7rem 0;
+}
+
+.experienciaLaboral__conteiner__card{
+    background: linear-gradient(207.8deg, #b8a997 16.69%, #F7931A 100%);
+    margin-bottom: 1rem;
+    border-left: 5px solid;        
+}
+
+.experienciaLaboral__conteiner__card p{
+    padding-left: 5px;
+}
+
+.experienciaLaboral__conteiner__card:hover{
+    text-shadow: 1px 1px 3px #46464650;
+    transform: scale(1.01);
+}
+
+/*********** Section Proyectos ***********/
+.main__section__Proyectos__conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.main__section__Proyectos__card{
+    margin: 16px;
+    margin-top: 24px;
+}
+
+.main__section__Proyectos__card img{
+    width: 350px;
+    opacity: 0.5;
+}
+
+.main__section__Proyectos__card__detalle{
+    padding: 0.5rem;
+}
+
+.main__section__Proyectos__card__detalle h3{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.main__section__Proyectos__card__detalle p{
+    padding-bottom: 0.5rem;
+}
+
+.main__section__Proyectos__card__detalle a{
+    border-radius: 10px;
+    padding: 0.3rem;    
+    margin-right: 0.7rem;
+    font-weight: 700;
+}
+
+.div-anchor{
+    display: flex;
+    
+}
+
+.repositorio{
+    border: 1px solid #205fb3;
+    background-color: #205fb3;
+    color: lightgray;
+}
+
+.demo{
+    border: 1px solid #205fb3;
+    background-color: lightgray;
+    color: #205fb3;
+}
+
+.main__section__Proyectos__card:hover{
+    box-shadow: 1px 1px 2px #46464650;
+    transform: scale(1.01);
+    border: 1px solid #46464650;
+}
+
+.main__section__Proyectos__card img:hover{
+    opacity: 1;
+}
+
+/*********** Section contacto ***********/
+.main__section__contacto{
+    background-color: linear-gradient(aliceblue 50%, #808080, #181818);
+}
+
+.main__section__contacto__iconos img{
+    width: 35px;
+}
+
+
+address{
+    display: flex;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+address h3{
+    font-weight: 600;
+    color: #000020;
+}
+
+
+
