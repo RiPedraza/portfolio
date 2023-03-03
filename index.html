@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <script src="html2pdf.bundle.min.js"></script>
+    <script src="app/html2pdf.bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -63,51 +63,62 @@
 
             <div class="main__section__Skills__box">
 
-                <div class="card-skills">
-                    <img src="assets/imagenes/icon/ico_html5_96x96.png" alt="Ícono de HTML5" class="skills__item--icono">
+                <div class="card-skills skill-html">
+                    <img src="assets/imagenes/icon/ico_html5_96x96.png" alt="Ícono de HTML5" class="skills__item__icono">
                     <p class="card-skills__nombre">HTML 5</p>
                 </div>
                 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icons_css3_96x96.png" alt="icono de CSS3">
+                <div class="card-skills skill-css3">
+                    <img src="./assets/imagenes/icon/icons_css3_96x96.png" alt="icono de CSS3" class="skills__item__icono">
                     <p class="card-skills__nombre">CSS3</p>
                 </div>
                 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_javascript_100x100.png" alt="icono de javascript"/>
+                <div class="card-skills skill-js">
+                    <img src="./assets/imagenes/icon/icon_javascript_100x100.png" alt="icono de javascript" class="skills__item__icono"/>
                     <p class="card-skills__nombre">JavaScript</p>
                 </div>
                    
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_git_100x100.png" alt="icono de git"/>
+                <div class="card-skills skill-git">
+                    <img src="./assets/imagenes/icon/icon_git_100x100.png" alt="icono de git" class="skills__item__icono"/>
                     <p class="card-skills__nombre">Git</p>
                 </div>
 
-                <div class="card-skills">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="icono de MySQL"/>
+                <div class="card-skills skill-mysql">
+                    <img src="./assets/imagenes/icon/icon_mysql_96x96.png" alt="icono de MySQL" class="skills__item__icono"/>
                     <p class="card-skills__nombre">MySQL</p>
                 </div>
 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_php_100x100.png" alt="icono de php"/>
+                <div class="card-skills skill-php">
+                    <img src="./assets/imagenes/icon/icon_php_100x100.png" alt="icono de php" class="skills__item__icono"/>
                     <p class="card-skills__nombre">PHP</p>
                 </div>
                 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_laravel_100x100.png" alt="icono de Laravel"/>
+                <div class="card-skills skill-laravel">
+                    <img src="./assets/imagenes/icon/icon_laravel_100x100.png" alt="icono de Laravel" class="skills__item__icono"/>
                     <p class="card-skills__nombre">Laravel</p>
                 </div>
 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_power-bi_100x100.png" alt="icono de Power BI"/>
+                <div class="card-skills skill-powerbi">
+                    <img src="./assets/imagenes/icon/icon_power-bi_100x100.png" alt="icono de Power BI" class="skills__item__icono"/>
                     <p class="card-skills__nombre">Power BI</p>
                 </div>
 
-                <div class="card-skills">
-                    <img src="./assets/imagenes/icon/icon_ms-excel_100x100.png" alt="icono de MS Excel"/>
+                <div class="card-skills skill-excel">
+                    <img src="./assets/imagenes/icon/icon_ms-excel_100x100.png" alt="icono de MS Excel" class="skills__item__icono"/>
                     <p class="card-skills__nombre">MS Excel</p>
                 </div>
             </div>
+
+            <dialog id="ventana-modal">
+                <h3>Titulo</h3>
+                <img src="" alt="">
+                <i></i>
+                <h4>detalle</h4>
+                <p>seguimiento</p>
+                <button id="cerrar-modal">cerrar</button>
+            </dialog>
+
+
         </section>
         
         <!-- Estudios -->
@@ -346,7 +357,7 @@
     </footer>
 
     
-    <script src="javascript.js"></script>
+    <script src="app/javascript.js"></script>
 
 </body>
 </html>

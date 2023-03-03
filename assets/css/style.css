@@ -6,6 +6,8 @@ body{
     background-color: aliceblue;
 }
 
+
+
 html{
     background-color: aliceblue;
     scroll-behavior: smooth;
@@ -21,8 +23,48 @@ h2{
     font-weight: bold; 
 }
 
+h3{
+    font-weight: 600;
+    color: #000020;
+}
+
+h4{
+    font-weight: 600;
+    color: #000020;
+}
+
 section{
     border-top: 1px solid #808080;
     margin-bottom: 5rem;
     
 }
+
+/*hace oscuro el fondo de la ventana modal*/
+#ventana-modal::backdrop{
+    background-color: rgba(0, 0, 0, .55);
+}
+
+#ventana-modal h3, #ventana-modal i{
+    font-size: x-large;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#ventana-modal img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem; 
+}
+
+#ventana-modal h4{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .5rem; 
+}
+
+#ventana-modal p{
+    margin-bottom: 1rem; 
+}
+
