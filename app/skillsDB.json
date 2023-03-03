@@ -2,12 +2,12 @@
     "skill-html": [{
         "nivel": "5/5",
         "detalle": "Nivel de conocimiento avanzado en este campo de HTML5.",
-        "seguimiento": "Dependiendo de la demanda y se actualiza el conocimiento sobre este campo."
+        "seguimiento": "Dependiendo de la demanda, se actualiza el conocimiento en este campo."
         }],
     "skill-css3": [{
         "nivel": "4/5",
         "detalle": "Nivel de conocimiento medio-avanzado en este campo de CSS3.",
-        "seguimiento": "Dependiendo de la demanda y se actualiza el conocimiento sobre este campo."
+        "seguimiento": "Dependiendo de la demanda, se actualiza el conocimiento en este campo."
         }],
     "skill-js": [{
         "nivel": "4/5",
@@ -17,12 +17,12 @@
     "skill-git": [{
         "nivel": "3/5",
         "detalle": "Nivel de conocimiento medio sobre el uso del control de versiones GIT y GitHub.",
-        "seguimiento": "El dominio en este campo irá creciendo de acuerdo al trabajo en equipo a experimentar."
+        "seguimiento": "Conocimientos necesarios para el uso personal. El dominio en este campo irá creciendo de acuerdo al trabajo en equipo a experimentar."
         }],
     "skill-mysql": [{
         "nivel": "4/5",
         "detalle": "Nivel de conocimiento medio-avanzado en este campo de Base de Datos con SQL y MySQL.",
-        "seguimiento": "El dominio de este campo ira creciendo de acuerdo a la demanda del cliente."
+        "seguimiento": "El dominio de este campo irá creciendo de acuerdo a la demanda del cliente."
         }],
     "skill-php": [{
         "nivel": "4/5",
@@ -30,9 +30,9 @@
         "seguimiento": "Dependiendo de la solución a brindar se refuerza y adquiere los conocimientos necesarios."
         }],
     "skill-laravel": [{
-        "nivel": "2/3",
+        "nivel": "2/5",
         "detalle": "Nivel de conocimiento bajo-medio en el manejo de este framework laravel para PHP.",
-        "seguimiento": "En proceso de aprendisaje."
+        "seguimiento": "En proceso de aprendizaje."
         }],
     "skill-powerbi": [{
         "nivel": "4/5",
@@ -42,6 +42,6 @@
     "skill-excel": [{
         "nivel": "5/5",
         "detalle": "Nivel de conocimiento avanzado en esta herramienta Excel.",
-        "seguimiento": "Las actualizaciones necesarias seran adquiridas de acuerdo a la solución demandada."
+        "seguimiento": "Las actualizaciones necesarias serán adquiridas de acuerdo a la solución demandada."
         }]   
 }
