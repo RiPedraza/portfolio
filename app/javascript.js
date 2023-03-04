@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const $elementoParaConvertir = document.body; // <-- Aquí puedes elegir cualquier elemento del DOM
         html2pdf()
             .set({
-                margin: 0.2,
-                filename: 'Portfolio_Pedraza_Ricardo.pdf',
+                margin: 0.3,
+                filename: 'Portfolio_Pedraza_Ricardo_A3.pdf',
                 image: {
                     type: 'jpeg',
                     quality: 0.98
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 },
                 jsPDF: {
                     unit: "in",
-                    format: "a4",
+                    format: "a3",
                     orientation: 'portrait' // landscape o portrait
                 }
             })
