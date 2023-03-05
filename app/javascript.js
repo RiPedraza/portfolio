@@ -32,6 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     unit: "in",
                     format: "a3",
                     orientation: 'portrait' // landscape o portrait
+                },
+                pagebreak: { 
+                    mode: 'avoid-all', 
+                    before: '#page2el' 
                 }
             })
             .from($elementoParaConvertir)
