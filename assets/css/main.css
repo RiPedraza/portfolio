@@ -213,4 +213,13 @@ address h3{
 }
 
 
+.icon__chevronUP{
+    width: 38px;
+}
 
+.icon__chevronUP:hover{
+    cursor: pointer;
+    border-radius: 20%;
+    box-shadow: 1px 1px 3px #2b2b2b;
+    transform: scale(1.01);
+}
