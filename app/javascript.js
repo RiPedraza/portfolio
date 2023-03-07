@@ -43,6 +43,12 @@ btnQR.addEventListener("click",()=>{
     }
 });
 
+/**********************Ocultar QR desde el boton ocultar**************************************/
+
+const ocultarQR = document.getElementById("ocultarQR");
+ocultarQR.addEventListener("click", ()=>{
+    linkQR.style.display = "none";
+});
 
 
 /**********************Genrar PDF**************************************/

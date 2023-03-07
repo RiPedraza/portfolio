@@ -27,16 +27,28 @@ main{
 }
 
 .main__section__SobreMi__tituloPerfil__linkQR{
-    width: 163px;
     margin-top: 1rem;
-    /* visibility: hidden; */
     display: none;
+}
+
+.img__linkQR{
+    width: 163px;
+    margin-right: 0.6rem;
+    margin-left: 42px;
 }
 
 .main__section__SobreMi__detallePerfil{
     width: 60%;
     line-height: 1.5;
     font-size: 1.2rem;
+}
+
+.img__ocultarQR{
+    visibility: hidden;
+}
+
+.main__section__SobreMi__tituloPerfil:hover .img__ocultarQR{
+    visibility: visible;
 }
 
 /*********** Section Skills ***********/
@@ -146,7 +158,7 @@ main{
 
 .main__section__Proyectos__card img{
     width: 350px;
-    opacity: 0.5;
+    filter: brightness(60%);
 }
 
 .main__section__Proyectos__card__detalle{
@@ -192,7 +204,7 @@ main{
 }
 
 .main__section__Proyectos__card img:hover{
-    opacity: 1;
+    filter: brightness(100%);
 }
 
 /*********** Section contacto ***********/
