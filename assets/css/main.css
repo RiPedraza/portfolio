@@ -223,3 +223,12 @@ address h3{
     box-shadow: 1px 1px 3px #2b2b2b;
     transform: scale(1.01);
 }
+
+
+/*********** All Section ***********/
+.icon__chevronUP{
+    opacity: .1;
+}
+.div-h2:hover .icon__chevronUP{
+    opacity: 1;
+}
