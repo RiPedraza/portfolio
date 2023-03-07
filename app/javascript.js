@@ -8,6 +8,43 @@
 })();
 
 
+/**********************botones en nav**************************************/
+const btnRight = document.getElementById("iconDoubleRight");
+const btnLeft = document.getElementById("iconDoubleLeft");
+const btnPDF = document.getElementById("btnCrearPdf");
+const btnQR = document.getElementById("btnLinkQR");
+
+btnRight.addEventListener("click", ()=>{
+    btnPDF.style.display = "block";
+    btnQR.style.display = "block";
+    btnLeft.style.display = "block";
+    btnRight.style.display = "none";
+});
+
+btnLeft.addEventListener("click", ()=>{
+    cerrar_btn();
+});
+
+function cerrar_btn(){
+    btnPDF.style.display = "none";
+    btnQR.style.display = "none";
+    btnLeft.style.display = "none";
+    btnRight.style.display = "block";
+};
+
+/**********************Mostrar QR**************************************/
+const linkQR = document.getElementById("linkQR");
+
+btnQR.addEventListener("click",()=>{
+    if(linkQR.style.display == "block"){
+        linkQR.style.display = "none";
+    }else{
+        linkQR.style.display = "block";
+    }
+});
+
+
+
 /**********************Genrar PDF**************************************/
 /*Creado por Parzibyte (https://parzibyte.me)*/
 
@@ -15,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Escuchamos el click del botón
     const $boton = document.querySelector("#btnCrearPdf");
     $boton.addEventListener("click", () => {
+        cerrar_btn(); //Ocultamos los botones del navegador
         const $elementoParaConvertir = document.body; // <-- Aquí puedes elegir cualquier elemento del DOM
         html2pdf()
             .set({
@@ -58,8 +96,7 @@ clickCard.addEventListener("click",(e)=>{
     e.preventDefault();
     const targetClick = e.target;
     var targetElement = "";
-    var targetElementName = "";
-    
+        
     if(targetClick.classList[0] != 'main__section__Skills__box'){
     
         if(targetClick.classList[0] == 'card-skills'){

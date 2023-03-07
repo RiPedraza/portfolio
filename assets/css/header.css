@@ -30,16 +30,32 @@ nav a{
     align-items: center;
 }
 
-.porfolio_y_pdf img{
-    width: 30%;
+#btnCrearPdf{
+    width: 44px;
+    margin-left: .2rem;
+    margin-right: .5rem;
+}
+
+#btnLinkQR{
+    width: 40px;
+    background-color: #DDDDDD;
+    margin-right: .3rem;
+}
+
+#iconDoubleRight, #iconDoubleLeft{
+    width: 30px;
+    margin-left: .2rem;
 }
 
 #btnCrearPdf{
     cursor: pointer;
 }
 
+#iconDoubleLeft, #btnCrearPdf, #btnLinkQR{
+    display: none;
+}
+
 #btnCrearPdf:hover{
-    
     transform: scale(1.02);
 }
 

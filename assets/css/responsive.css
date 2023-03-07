@@ -42,6 +42,11 @@
         justify-content: center;
     }
 
+    /*Sobre Mi*/
+    .main__section__SobreMi__tituloPerfil{
+        width: 100%;
+    }
+
     /* Section Estudios */
     .main__section__Estudios__div{
         font-size: medium;
@@ -89,6 +94,8 @@
         flex-direction: column;
         align-items: center;
     }
+
+    
 
 
 }
