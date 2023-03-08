@@ -34,22 +34,22 @@ nav a{
     width: 44px;
     margin-left: .2rem;
     margin-right: .5rem;
+    cursor: pointer;
 }
 
 #btnLinkQR{
     width: 40px;
     background-color: #DDDDDD;
     margin-right: .3rem;
+    cursor: pointer;
 }
 
 #iconDoubleRight, #iconDoubleLeft{
     width: 30px;
     margin-left: .2rem;
-}
-
-#btnCrearPdf{
     cursor: pointer;
 }
+
 
 #iconDoubleLeft, #btnCrearPdf, #btnLinkQR{
     display: none;
