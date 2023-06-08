@@ -243,6 +243,14 @@ address h3{
     transform: scale(1.01);
 }
 
+.parrafo_whatsapp{
+    display: flex;
+    align-items: center;
+}
+
+.icono_whatsapp{
+    width: 40px;
+}
 
 /*********** All Section ***********/
 .icon__chevronUP{
